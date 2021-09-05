@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+  <link rel="icon" href="devchallenges.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+  <title>Interior Consultant</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a id="brand" href="/">THIS INTERIOR</a>
+      <button class="btn" type="button" id="drawer__menu--show" aria-label="Open sidemenu" aria-controls="drawer__menu">
+        <span class="material-icons">menu</span>
+      </button>
+      <div id="drawer__menu">
+        <div id="drawer__menu--btnWrapper">
+          <button class="btn" type="button" id="drawer__menu--close" aria-label="Close sidemenu"
+            aria-controls="drawer__menu">
+            <span class="material-icons">close</span>
+          </button>
+        </div>
+        <div id="drawer__menu--content">
+          <ul>
+            <li>
+              <a href="#" class="active">Home</a>
+            </li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="content__main">
+      <div>
+        <h1>Modern interior</h1>
+        <p class="sub__heading">A full-Service residential & commercial interior design and staging company offering
+          professional organizing & eco-services.</p>
+        <a href="#" class="link__read-more">Read more <span class="material-icons"
+            aria-hidden="true">arrow_right_alt</span></a>
+      </div>
+      <div>
+        <figure>
+          <img src="photo1.png" alt="Room interior" class="img__room" />
+        </figure>
+      </div>
+    </section>
+    <section id="content__wrapper">
+      <div class="card">
+        <div class="card__head">
+          <figure>
+            <img src="photo2.png" alt="avatar" />
+          </figure>
+          <div class="card__info">
+            <div class="card__title">Aliza Webber</div>
+            <div class="card__description">Interior designer</div>
+          </div>
+        </div>
+        <div class="card__body">
+          <h3>Designed in 2020 by Aliza Webber</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    created by <a href="https://github.com/NitinNair89" target="_blank" rel="noreferrer nofollow noopener">Nitin</a> -
+    devChallenges.io
+  </footer>
+  <script src="main.js" async></script>
+</body>
+
+</html>
